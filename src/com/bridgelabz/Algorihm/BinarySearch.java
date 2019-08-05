@@ -23,7 +23,6 @@ public class BinarySearch
 		 int counter, num, item, array[], first = 0, last = 0, middle = 0;
 		  Scanner scanner = new Scanner(System.in);
 	      System.out.println("Enter number of elements:");
-	      
 	      num = scanner.nextInt(); 
 	      array = new int[num];
 	      System.out.println("Enter " + num + " integers");
