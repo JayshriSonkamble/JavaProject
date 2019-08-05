@@ -21,11 +21,9 @@ public class Stopwatc{
 		{
 		
 			Scanner scanner= new Scanner(System.in);
-			
 			System.out.println("Enter start to start stopwatch:");
 			String startime= scanner.next();
 			
-				//used to get current start time 
 			 	long starttime = System.currentTimeMillis();
 			 	Scanner scanner1= new Scanner(System.in);
 			  
